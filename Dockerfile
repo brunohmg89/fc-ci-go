@@ -2,7 +2,7 @@ FROM golang:latest
 
 WORKDIR /go/src/app
 
-COPY builds/ .
+COPY . .
 
 RUN go mod init
 
